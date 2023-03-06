@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Botões*/
+:root {
+    --cor-primaria-btn-cadastro: #E72830;
+    --cor-hover-btn-cadastro: #ec141f;
+
+    --cor-primaria-btn-cta: #E72830;
+    --cor-hover-btn-cta: #ec141f;
+    ;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /*background-image: linear-gradient(45deg, rgb(0, 0, 0) 75%, #460b0b 100%);*/
+    background-image: radial-gradient(circle at left top, rgba(255, 0, 0, 0.288) 0%, black 10%);
+}
+
+/*cabeçalho e parte do topo*/
+header {
+    padding: 20px;
+    color: white;
+    width: 75%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bx-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: montserrat extrabold;
+}
+
+.img-whats {
+    margin-right: 5px;
+}
+
+.number {
+    display: flex;
+    font-family: montserrat extrabold;
+    font-size: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/*Formulario*/
+.formulario {
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+form {
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    /* box-shadow: 0px 0 15px red;*/
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.418);
+}
+
+/*banner*/
+.img-capa {
+    width: 100%;
+    height: 400px;
+}
+
+.tx-subheadline {
+    width: 80%;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 60px 20px 60px;
+}
+
+.banner h1 {
+    color: white;
+    font-family: Montserrat Extrabold;
+    font-size: 40px;
+}
+
+.text-bx1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 55%;
+    /*border: solid 1px red;*/
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.tp {
+    display: inline;
+    color: red;
+    font-family: Montserrat Extrabold;
+    font-size: 40px;
+}
+
+.banner p {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn-cadastro {
+    width: 50%;
+    height: 50px;
+    background-color: var(--cor-primaria-btn-cadastro);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    transition: background .3s;
+}
+
+.btn-cadastro:hover {
+    background-color: var(--cor-hover-btn-cadastro);
+}
+
+/*
+.btn-whats {
+    margin-top: 20px;
+    text-align: center;
+}
+*/
+
+/*O que é o tráfego pago*/
+.como-funciona {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+h2 {
+    font-family: montserrat extrabold;
+    color: white;
+}
+
+.servico {
+    width: 500px;
+    margin: 0px;
+    padding: 15px;
+}
+
+/*Com este serviço você*/
+.Como-ajudam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    background-image: radial-gradient(circle at center, rgba(255, 0, 0, 0.288) 25%, black 50%);
+}
+
+.titulo3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.bt-beneficios {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn-cta {
+    width: 25%;
+    background-color: var(--cor-primaria-btn-cta);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+    transition: background .3s;
+
+
+}
+
+.btn-cta:hover {
+    background-color: var(--cor-hover-btn-cta);
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bx-beneficios {
+    border: solid 2px rgba(255, 0, 0, 0.582);
+    box-shadow: 6px 6px 10px rgba(255, 0, 0, 0.315);
+
+    background-color: rgba(0, 0, 0, 0.877);
+    /*backdrop-filter: blur(20px);*/
+
+    padding: 40px;
+    margin: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+p {
+    color: white;
+    line-height: 25px;
+}
+
+h3 {
+    font-family: montserrat extrabold;
+    color: white;
+}
+
+/*Entregaveis*/
+.entregaveis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-image: radial-gradient(circle at left, rgba(255, 0, 0, 0.288) 5%, black 20%);
+}
+
+.img-ouro {
+    width: 525px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.meus-entregaveis {
+    border: solid 1px black;
+}
+
+.bx-entregaveis {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bx-check {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.tx-entregaveis {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Quem conhece recomeda*/
+.clientes {
+    padding: 60px;
+}
+
+.depoimentos {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.recomenda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 60px;
+}
+
+.bx-recomenda {
+    text-align: center;
+
+}
+
+.bt-recomenda {
+    display: flex;
+    justify-content: center;
+}
+
+/*Quem somos*/
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.Quem-somos {
+    width: 500px;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.img-quem-sou {
+    width: 400px;
+    height: 400px;
+}
+
+/*Perguntas frequentes*/
+.perguntas {
+    padding: 50px;
+}
+
+.tx-perguntas {
+    padding: 25px;
+    text-align: center;
+}
+
+.bx-perguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*border: solid green 1px;*/
+    padding: 0 10% 0 10%;
+
+}
+
+summary {
+    color: white;
+}
+
+section details summary {
+    background-color: #E72830;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+details p {
+    padding: 10px;
+}
+
+/*cta*/
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.cta-1 {
+    width: 500px;
+}
+
+.bx-cta-2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75%;
+    color: white;
+}
+
+.tx-bill {
+    margin-bottom: 20px;
+}
+
+.btn-cta {
+    width: 25%;
+}
+
+.cta-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+
+    background-image: url(../imagens/gate.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.img-bill {
+    width: 475px;
+    height: 350px;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 15px
+}
+
+/*celular*/
+@media screen and (max-width: 768px) {
+
+    /*Header*/
+    header {
+        width: 100%;
+    }
+
+    .tx-subheadline {
+        width: 80%;
+    }
+
+    .bx-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: montserrat extrabold;
+    }
+
+    .img-whats {
+        margin-right: 5px;
+    }
+
+    .number {
+        display: flex;
+        font-family: montserrat extrabold;
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    /*Banner*/
+    .banner {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .tx-subheadline {
+        width: 100%;
+    }
+
+    .img-capa {
+        width: 0px;
+    }
+
+    .text-bx1 {
+        width: 100%;
+    }
+
+    .banner h1 {
+        color: white;
+        font-family: Montserrat Extrabold;
+        font-size: 40px;
+    }
+
+    .banner p {
+        color: white;
+        margin-top: 10px;
+        font-size: 19px;
+    }
+
+    /*Formulario*/
+    .formulario {
+        border-radius: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    form {
+        border-radius: 10px;
+        padding: 5px;
+        width: 100%;
+        /* box-shadow: 0px 0 15px red;*/
+    }
+
+    input {
+        width: 100%;
+        height: 35px;
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border: transparent;
+        border-bottom: 1px solid rgba(255, 0, 0, 0.418);
+    }
+
+    .btn-cadastro {
+        width: 100%;
+    }
+
+    /*Como funciona*/
+    .como-funciona {
+        padding: 10px;
+    }
+
+    /*Como ajudam*/
+    .Como-ajudam {
+        padding: 10px;
+    }
+
+    .titulo3 {
+        text-align: center;
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+
+    .bx-beneficios {
+        padding: 25px;
+    }
+
+    /*Entregaveis*/
+    .entregaveis {
+        background-image: radial-gradient(circle at left, rgba(255, 0, 0, 0.288) 5%, black 50%);
+    }
+
+    .bx-check {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    .tx-entregaveis {
+        margin-bottom: 10px;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .img-ouro {
+        width: 0px;
+        height: 0px;
+    }
+
+    /*Perguntas frequentes*/
+    .perguntas {
+        padding: 10px;
+    }
+
+    /*Fotter*/
+    footer {
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        margin-top: 0px;
+    }
+
+    /*duvidas*/
+    .tx-dobra {
+        border-bottom: #E72830 solid 1px;
+    }
+
+    /*cta*/
+    .cta-2 {
+        margin-top: 80px;
+    }
+
+    .btn-cta {
+        display: flex;
+        width: 75%;
+    }
+
+
+    /*Imagnes*/
+    iframe {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .img-ouro {
+        width: 100%;
+    }
+
+    .img-bill {
+        width: 100%;
+        height: 250px;
+    }
+}
