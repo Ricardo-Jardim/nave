@@ -12,13 +12,11 @@
 
     --cor-primaria-btn-cta: #E72830;
     --cor-hover-btn-cta: #ec141f;
-    ;
 }
 
 body {
     width: 100%;
     background-color: rgb(0, 0, 0);
-    /*background-image: linear-gradient(45deg, rgb(0, 0, 0) 75%, #460b0b 100%);*/
     background-image: radial-gradient(circle at left top, rgba(255, 0, 0, 0.288) 0%, black 10%);
 }
 
@@ -36,7 +34,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: montserrat extrabold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -49,7 +47,7 @@ a {
 
 .number {
     display: flex;
-    font-family: montserrat extrabold;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -69,7 +67,6 @@ form {
     border-radius: 10px;
     padding: 5px;
     width: 80%;
-    /* box-shadow: 0px 0 15px red;*/
 }
 
 input {
@@ -104,8 +101,9 @@ input {
 
 .banner h1 {
     color: white;
-    font-family: Montserrat Extrabold;
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 42px;
 }
 
 .text-bx1 {
@@ -114,7 +112,6 @@ input {
     justify-content: center;
     padding: 10px;
     width: 55%;
-    /*border: solid 1px red;*/
 }
 
 img {
@@ -125,8 +122,8 @@ img {
 .tp {
     display: inline;
     color: red;
-    font-family: Montserrat Extrabold;
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
 }
 
 .banner p {
@@ -149,12 +146,11 @@ img {
     background-color: var(--cor-hover-btn-cadastro);
 }
 
-/*
+/* BOTAO WHATS
 .btn-whats {
     margin-top: 20px;
     text-align: center;
-}
-*/
+}*/
 
 /*O que é o tráfego pago*/
 .como-funciona {
@@ -165,7 +161,7 @@ img {
 }
 
 h2 {
-    font-family: montserrat extrabold;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -246,7 +242,7 @@ p {
 }
 
 h3 {
-    font-family: montserrat extrabold;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -459,7 +455,7 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        font-family: montserrat extrabold;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .img-whats {
@@ -468,7 +464,7 @@ footer p {
 
     .number {
         display: flex;
-        font-family: montserrat extrabold;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
 
@@ -497,8 +493,7 @@ footer p {
 
     .banner h1 {
         color: white;
-        font-family: Montserrat Extrabold;
-        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .banner p {
@@ -518,7 +513,6 @@ footer p {
         border-radius: 10px;
         padding: 5px;
         width: 100%;
-        /* box-shadow: 0px 0 15px red;*/
     }
 
     input {
