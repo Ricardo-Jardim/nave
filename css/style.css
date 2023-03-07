@@ -39,6 +39,10 @@ header {
     font-family: montserrat extrabold;
 }
 
+a {
+    text-decoration: none;
+}
+
 .img-whats {
     margin-right: 5px;
 }
