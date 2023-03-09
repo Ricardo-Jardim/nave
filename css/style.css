@@ -153,11 +153,16 @@ img {
 }*/
 
 /*O que é o tráfego pago*/
+
 .como-funciona {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 80px;
+}
+
+video {
+    display: inline-block;
 }
 
 h2 {
@@ -166,6 +171,7 @@ h2 {
 }
 
 .servico {
+    display: inline-block;
     width: 500px;
     margin: 0px;
     padding: 15px;
