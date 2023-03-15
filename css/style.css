@@ -173,7 +173,8 @@ h2 {
 .servico {
     display: inline-block;
     width: 500px;
-    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 15px;
 }
 
@@ -190,7 +191,7 @@ h2 {
     text-align: center;
     color: white;
     margin-bottom: 40px;
-
+    font-size: 40px;
 }
 
 .bt-beneficios {
@@ -291,6 +292,7 @@ h3 {
 }
 
 .tx-entregaveis {
+    font-size: 40px;
     margin-bottom: 10px;
     text-align: center;
 }
